@@ -1,10 +1,12 @@
 # source all files
 
-source ./variables.sh
-source ./config.sh
-source ./path.sh
-source ./commands.sh
-source ./aliases.sh
+dotbash_path="$HOME/.bash"
+
+source $dotbash_path/variables.sh
+source $dotbash_path/config.sh
+source $dotbash_path/path.sh
+source $dotbash_path/commands.sh
+source $dotbash_path/aliases.sh
 
 # Run twolfson/sexy-bash-prompt
-source ~/.bash_prompt
+source $HOME/.bash_prompt
