@@ -1,5 +1,7 @@
 # This file lists custom shell commands
 
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
 # Find a file with a pattern in name:
 function find_file() {
   find . -type f -iname '*'"$*"'*' -ls ;
