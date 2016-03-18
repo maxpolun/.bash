@@ -12,6 +12,9 @@ export HOME_SERVER="maxpolun@ddns.net"
 export NODE_REPL_HISTORY_FILE=$HOME/.node_history
 export ANDROID_HOME="$HOME/android-sdk-macosx"
 
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
+
 # warn on bash < 4: some of these features require bash 4+
 if [ ${BASH_VERSINFO[0]} -lt 4 ]
   then
