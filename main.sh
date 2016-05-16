@@ -1,3 +1,4 @@
+#!/bin/bash
 # source all files
 
 dotbash_path="$HOME/.bash"

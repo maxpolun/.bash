@@ -1,3 +1,4 @@
+#!/bin/bash
 # This file lists custom shell aliases
 
 alias ls='ls -h -p'

@@ -1,3 +1,4 @@
+#!/bin/bash
 # This is for non-secure variables and config. Any secrets go in variables.sh, which is gitignored
 
 export CLICOLOR='xterm-color'
@@ -16,7 +17,7 @@ export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
 
 # warn on bash < 4: some of these features require bash 4+
-if [ ${BASH_VERSINFO[0]} -lt 4 ]
+if [ "${BASH_VERSINFO[0]}" -lt 4 ]
   then
     echo 'warning some features require bash4+'
 fi
